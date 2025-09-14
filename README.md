@@ -18,10 +18,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 -   Mobile View
-    ![](./images/screenshot-mobile.png)
+
+    -   ![](./images/screenshot-mobile.png)
 
 -   Desktop View
-    ![](./images/screenshot-desktop.png)
+    -   ![](./images/screenshot-desktop.png)
 
 ### Links
 
