@@ -39,7 +39,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-I learned about a new css selector using which I can style the list elements markers like the numbers in <ol> and the dots in <ul> using `li::marker` under whatever list i want.
+I learned about a new css selector using which I can style the list elements markers like the numbers in 'ol' and the dots in 'ul' using `li::marker` under whatever list i want.
 
 ## Author
 
