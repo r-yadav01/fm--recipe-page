@@ -77,16 +77,21 @@ header h1, main h2 {
     --white: hsl(0, 0%, 100%);
     --stone900: hsl(24, 5%, 18%);
     --stone600: hsl(30, 10%, 34%);
+    --stone150: hsl(30, 18%, 87%);
 }
 
 body {
     background-color: var(--white);
     color: var(--stone600);
 }
-body > * {
-    margin: 0.5rem;
+
+section {
+    margin: 2rem;
 }
 
+img {
+    border-radius: 3px;
+}
 tr td:nth-child(2) {
     color: var(--brown);
     font-weight: 600;
@@ -106,13 +111,14 @@ h2 {
     justify-content: start;
 }
 
-.timing-info h3, .timing-info ul li::marker {
+.timing-info h3, .timing-info li::marker {
     color: var(--rose800);
-    
 }
 
 h1 {
     color: var(--stone900);
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 main li::marker, main li::marker {
@@ -121,17 +127,45 @@ main li::marker, main li::marker {
 }
 
 h2, h3 {
-  margin-left: 0; /* ensure heading starts at left edge */
-  padding-left: 1.3rem;
+  margin: 0 1rem;
+}
+
+h1, h2 {
+    padding: 1.2rem 0;
+}
+
+h2 {
+    border-top: 1px solid var(--stone150);
 }
 
 ul, ol {
-  list-style-position: outside; /* default, keeps bullets outside text block */
-  padding: 0 2.5rem;           /* adjust this value to align with heading */
-  margin: 0;                    /* remove extra default margin */
+  list-style-position: outside;
+  padding: 0 2rem;           
+  margin: 0;                  
 }
 
 li {
     padding-left: 0.5rem;
 }
 
+.nutrition-sec {
+    padding: 0 1rem;
+}
+
+.nutrition-sec h2 {
+    margin: 0 0;
+}
+
+table {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+td {
+    border-bottom: 1px solid var(--stone150);
+    padding: 0.5rem 0;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
