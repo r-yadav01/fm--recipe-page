@@ -85,7 +85,7 @@ section {
 }
 
 img {
-    border-radius: 3px;
+    border-radius: 5px;
 }
 tr td:nth-child(2) {
     color: var(--brown);
@@ -179,7 +179,7 @@ tr:last-child td {
         width: 800px;
     }
     .img-container {
-        padding: 1rem;
+        padding: 1.5rem 2rem 0rem 2rem;
     }
 
     img {
